@@ -1,3 +1,16 @@
 .menu__lista {
     display: flex;
 }
+
+@media screen and (min-width: 0px) {
+    .menu__lista{
+        flex-direction: column;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .menu__lista{
+        flex-direction: row;
+    }   
+}
+
